@@ -13,9 +13,8 @@ def create_third_window():
     new_window2.title('查询许超萍身份证')
     new_window2.geometry('300x300')
     lab_new2 = Label(new_window2, text='许超萍身份证为：330724198005207628')
-    lab_new3 = Label(new_window2, text='通过tg查询，保真')
     lab_new2.pack()
-    lab_new3.pack()
+    
 
 def window():
     new_window = Toplevel(root)
